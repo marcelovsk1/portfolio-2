@@ -8,10 +8,9 @@ const About = () => {
   return (
     <section className='styles_container'>
       <h2 className='styles_title'>About <span>Me</span></h2>
-      <div className="pic_container">
-        {/* <img src={About_Pic} alt="About_Pic" className='About-Pic' /> */}
-        </div>
       <div className='styles_content'>
+      <div className="pic_container">
+        <img src={About_Pic} alt="About_Pic" className='About-Pic' />
         <ul className='styles_itens'>
           <li className='education'>
             <div className='webdev'>
@@ -36,6 +35,7 @@ const About = () => {
               </a>
           </li>
         </ul>
+      </div>
       </div>
     </section>
   );
