@@ -1,6 +1,6 @@
 .styles_container {
   position: relative;
-  padding-top: 5vh;
+  padding-top: 1vh;
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 2%;
@@ -10,7 +10,6 @@
 .pic_container {
   display: flex;
   flex-direction: column;
-
 }
 
 .About-Pic {
@@ -47,6 +46,7 @@
   flex-direction: row;
   list-style: none;
   align-items: center;
+  margin-bottom: -10px; /* Adicione a margem inferior desejada */
 }
 
 .webdev {
@@ -66,6 +66,10 @@
   max-width: 100%;
 }
 
+h3 {
+  font-weight: 600;
+}
+
 p {
   padding-right: 10vh;
   max-width: 500px;
@@ -82,8 +86,8 @@ p {
 
 .ios {
   border-radius: 10%;
-  width: 70%;
-  height: 70%;
+  width: 67%;
+  height: 67%;
   margin-left: -10vh;
   /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); */
 }
