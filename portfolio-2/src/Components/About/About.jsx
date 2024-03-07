@@ -2,14 +2,16 @@ import React from 'react'
 import './About.css'
 import About_Pic from '../../../src/img/about_pic.png'
 import le_wagon from '../../../src/img/le_wagon.png'
-import iOS from '../../../src/img/ios.png'
+import iOS from '../../../src/img/ios_2.png'
 
 const About = () => {
   return (
     <section className='styles_container'>
       <h2 className='styles_title'>About <span>Me</span></h2>
+      <div className="pic_container">
+        {/* <img src={About_Pic} alt="About_Pic" className='About-Pic' /> */}
+        </div>
       <div className='styles_content'>
-        <img src={About_Pic} alt="About_Pic" className='About-Pic' />
         <ul className='styles_itens'>
           <li className='education'>
             <div className='webdev'>
