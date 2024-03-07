@@ -7,6 +7,12 @@
   /* height: 100%; */
 }
 
+.pic_container {
+  display: flex;
+  flex-direction: column;
+
+}
+
 .About-Pic {
   height: 30vh;
   width: 30vh;
@@ -40,7 +46,7 @@
   display: flex;
   flex-direction: row;
   list-style: none;
-  align-items: center; /* Centraliza os itens verticalmente */
+  align-items: center;
 }
 
 .webdev {
@@ -51,17 +57,18 @@
 .description {
   align-items: center;
   word-wrap: break-word;
-  padding-left: 10vh;
+  padding-left: 50vh;
   text-align: start;
+  margin-bottom: 2px
 }
 
 .le_wagon, .iOS {
-  max-width: 100%; /* Garante que as imagens não ultrapassem o tamanho máximo do contêiner */
+  max-width: 100%;
 }
 
 p {
   padding-right: 10vh;
-  max-width: 500px; /* Defina a largura máxima desejada */
+  max-width: 500px;
   text-align: justify;
 }
 
@@ -74,7 +81,9 @@ p {
 }
 
 .ios {
-  width: 30%;
-  height: 25%;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.01);
+  border-radius: 10%;
+  width: 70%;
+  height: 70%;
+  margin-left: -10vh;
+  /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); */
 }
