@@ -13,9 +13,9 @@
 }
 
 .About-Pic {
-  height: 30vh;
-  width: 30vh;
-  margin-left: 5vh; /* Adicione margem direita para separar a imagem da lista */
+  height: 45vh;
+  width: 45vh;
+  margin-left: 8vh; /* Adicione margem direita para separar a imagem da lista */
 }
 
 
@@ -59,7 +59,7 @@
 .description {
   align-items: center;
   word-wrap: break-word;
-  padding-left: 10vh;
+  padding-left: 4vh;
   text-align: start;
   margin-bottom: 2px
 }
