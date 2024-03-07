@@ -1,0 +1,80 @@
+.styles_container {
+  position: relative;
+  padding-top: 5vh;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 2%;
+  /* height: 100%; */
+}
+
+.About-Pic {
+  height: 30vh;
+  width: 30vh;
+}
+
+
+.styles_title {
+  font-size: 7vh;
+  font-weight: 600;
+  letter-spacing: -2px;
+}
+
+.styles_title span {
+  color: var(--blueCard);
+  font-weight: 600;
+}
+
+.styles_content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.styles_itens {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.education {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center; /* Centraliza os itens verticalmente */
+}
+
+.webdev {
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  align-items: center;
+  word-wrap: break-word;
+  padding-left: 10vh;
+  text-align: start;
+}
+
+.le_wagon, .iOS {
+  max-width: 100%; /* Garante que as imagens não ultrapassem o tamanho máximo do contêiner */
+}
+
+p {
+  padding-right: 10vh;
+  max-width: 500px; /* Defina a largura máxima desejada */
+  text-align: justify;
+}
+
+.le_wagon {
+  border-radius: 10%;
+  width: 50%;
+  height: 50%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  margin-right: 15vh;
+}
+
+.ios {
+  width: 30%;
+  height: 25%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.01);
+}
