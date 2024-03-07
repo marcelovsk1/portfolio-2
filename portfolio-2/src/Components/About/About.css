@@ -1,4 +1,4 @@
-.about_container {
+.styles_container {
   position: relative;
   padding-top: 5vh;
   background-color: rgb(255, 255, 255);
@@ -10,7 +10,17 @@
 .About-Pic {
   height: 30vh;
   width: 30vh;
+}
 
+
+.styles_title {
+  font-size: 7vh;
+  font-weight: 600;
+}
+
+.styles_title span {
+  color: var(--blueCard);
+  font-weight: 600;
 }
 
 .le_wagon {
