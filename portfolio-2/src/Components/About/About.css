@@ -9,12 +9,13 @@
 
 .pic_container {
   display: flex;
-  flex-direction: column;
+  align-items: center; /* Alinha os itens verticalmente */
 }
 
 .About-Pic {
   height: 30vh;
   width: 30vh;
+  margin-left: 5vh; /* Adicione margem direita para separar a imagem da lista */
 }
 
 
@@ -39,6 +40,7 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
+  flex-grow: 1;
 }
 
 .education {
@@ -57,7 +59,7 @@
 .description {
   align-items: center;
   word-wrap: break-word;
-  padding-left: 50vh;
+  padding-left: 10vh;
   text-align: start;
   margin-bottom: 2px
 }
