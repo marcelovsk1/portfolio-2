@@ -49,6 +49,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 5vh;
   /* width: 120px;
   height: 120px; */
 
@@ -57,7 +58,8 @@
 
 
 .skillIncon {
-  height: 20vh;
-  width: 20vh;
+  height: 15vh;
+  width: 16vh;
   border-radius: 4%;
+  padding: 5px;
 }
