@@ -95,3 +95,13 @@ p {
   margin-left: -10vh;
   /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); */
 }
+
+.le_wagon:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.ios:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
