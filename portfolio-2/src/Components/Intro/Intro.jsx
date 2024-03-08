@@ -11,7 +11,7 @@ const Intro = () => {
         <div className="i-name">
           <span>Hello, I am</span>
           <span>Marcelo Amaral</span>
-          <span>iOS Developer </span>
+          <span className='role'>iOS Developer </span>
         </div>
         <div class="i-buttons-container">
           <button class="button i-button">Download CV</button>
