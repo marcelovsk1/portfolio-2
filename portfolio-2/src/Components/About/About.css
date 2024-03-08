@@ -9,13 +9,13 @@
 
 .pic_container {
   display: flex;
-  align-items: center; /* Alinha os itens verticalmente */
+  align-items: center;
 }
 
 .About-Pic {
   height: 45vh;
   width: 45vh;
-  margin-left: 8vh; /* Adicione margem direita para separar a imagem da lista */
+  margin-left: 8vh;
 }
 
 

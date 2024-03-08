@@ -11,16 +11,18 @@ const Experience = () => {
       <div className={styles.content}>
         <div className={styles.skills}>
             <div className={styles.skill}>
-              <div className='skills-item'>
-                <img src={JS} alt="js"/>
+              <div className={styles.skillImageContainer}>
+                <img src={JS} alt="js" className={styles.skillIncon}/>
               </div>
               <p>JS</p>
             </div>
-            <div className='skills-item'>
-                <img src={Swift} alt="js" className/>
+            <div className={styles.skill}>
+            <div className={styles.skillImageContainer}>
+                <img src={Swift} alt="js" className={styles.skillIncon}/>
               </div>
               <p>Swift</p>
             </div>
+          </div>
         </div>
         <ul>
 
