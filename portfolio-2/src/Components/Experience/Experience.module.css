@@ -1,0 +1,17 @@
+.container {
+  color: var(--black);
+  margin-top: 80px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  color: var(--black);
+  font-size: 7vh;
+  font-weight: 600;
+  letter-spacing: -2px;
+}
+
+.title span {
+  color: var(--blueCard);
+}
