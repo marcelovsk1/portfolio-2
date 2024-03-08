@@ -77,7 +77,7 @@
   align-items: center;
   gap: 17px;
   background: #d4d4d4;
-  background: linear-gradient(90deg, #efefef 0%, rgba(25, 55, 109, 0) 100%);
+  background: linear-gradient(90deg, #f1f0f0 0%, rgba(25, 55, 109, 0) 100%);
   border-radius: 10px;
   padding: 24px;
   margin-top: -15px;
