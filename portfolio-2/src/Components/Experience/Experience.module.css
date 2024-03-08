@@ -44,8 +44,8 @@
 }
 
 .skillImageContainer {
-  background-color: rgb(255, 254, 254);
-  border-radius: 100%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 20%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -80,10 +80,11 @@
   background: linear-gradient(90deg, #efefef 0%, rgba(25, 55, 109, 0) 100%);
   border-radius: 10px;
   padding: 24px;
+  margin-top: -15px;
 }
 
 .historyItem img {
-  width: 50px;
+  width: 70px;
   display: flex;
   flex-direction: column;
 }
@@ -99,14 +100,14 @@
 }
 
 .historyItemDetails p {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 500;
 
 }
 
 .historyItemDetails ul {
   /* list-style-position: inside; */
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   text-align: left;
   /* list-style-type: none; */
