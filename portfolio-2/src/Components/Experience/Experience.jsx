@@ -15,6 +15,7 @@ const Experience = () => {
   return (
     <section className={styles.container} id="experience">
       <h2 className={styles.title}>My <span>Experience</span></h2>
+      {/* SKILLS */}
       <div className={styles.content}>
         <div className={styles.skills}>
             {/* SWIFT */}
@@ -51,7 +52,7 @@ const Experience = () => {
                 <img src={JS} alt="js" className={styles.skillIncon}/>
                 </a>
               </div>
-              <p>JavaScript</p>
+              <p>JS</p>
             </div>
             {/* C# */}
             <div className={styles.skill}>
@@ -89,6 +90,7 @@ const Experience = () => {
               </div>
               <p>Unity</p>
             </div>
+            {/* HISTORY */}
             <ul className={styles.history}>
               <li className={styles.historyItem}>
                 <a href="https://www.trendit.ca/">
