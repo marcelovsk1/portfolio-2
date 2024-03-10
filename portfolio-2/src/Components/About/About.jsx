@@ -35,7 +35,7 @@ const About = () => {
               </a>
           </li>
         </ul>
-      </div>
+        </div>
       </div>
     </section>
   );
